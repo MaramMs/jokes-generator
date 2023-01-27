@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left bottom lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    background: linear-gradient(45deg, #3498db, #269a90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 15px;
+}
+.title{
+    font-weight: 200;
+font-size: 2rem;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
+}
+.joke{
+    color:white;
+    font-size: 1.3rem;
+}
+.btn{
+    border: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 20px;
+}
